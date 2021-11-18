@@ -11,14 +11,14 @@ variable "project" {
     project-alpha = {
       public_subnet_count  = 2,
       private_subnet_count = 2,
-      instances_per_subnet = 2,
+      instances_per_subnet = 3,
       instance_type        = "t2.micro",
       environment          = "dev"
     },
     project-beta = {
       public_subnet_count  = 2,
       private_subnet_count = 2,
-      instances_per_subnet = 2,
+      instances_per_subnet = 3,
       instance_type        = "t2.nano",
       environment          = "test"
     }
