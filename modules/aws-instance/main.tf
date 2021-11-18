@@ -30,6 +30,6 @@ resource "aws_instance" "app" {
     Terraform   = "true"
     Project     = var.project_name
     Environment = var.environment
-    Name = "WebServer, ${var.project_name}, ${count.index}"
+    Name        = "WebServer, ${var.project_name}, ${count.index}"
   }
 }

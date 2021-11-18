@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
     organization = "schucdaaws"
-      workspaces{
-        name = "LearnTerraformCount"
-      }
+    workspaces {
+      name = "LearnTerraformCount"
+    }
   }
 }
 provider "aws" {
